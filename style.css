@@ -1,0 +1,74 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #333;
+}
+
+header img {
+  height: 60px;
+}
+
+/* Estilo para a seção das receitas */
+.receita {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.receita img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.texto-receita {
+  padding: 20px;
+}
+
+.texto-receita h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.texto-receita p {
+  font-size: 16px;
+  color: #777;
+}
+
+.texto-receita a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.texto-receita a:hover {
+  background-color: #222;
+}
+
+h2 {
+  margin-left: 10px;
+}
